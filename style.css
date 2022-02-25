@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  
+    
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+.body{
+    
+    background: rgb(34,129,195);
+    background: linear-gradient(11deg, rgba(34,129,195,1) 10%, rgba(253,45,49,1) 89%);}
+  
+  
+  .contenedor {
+    width: 50%;
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 16rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-radius: 1rem;
+    background-color: white;
+    
+   
+   
+  }
+
+  .contenedor div {
+   
+      gap: 3rem;
+    
+  }
+
+  header{
+      background-color: rgb(245, 50, 50);
+      text-align: center;
+      color: white;
+      
+      border-radius: 1rem;
+      width: 100%;
+      margin-bottom: 2rem;
+  }
+
+
+  .form-label{
+      font-size: 2rem;
+  }
+  .form-control{
+      font-size: 1.5rem;
+      width: 100%;
+      
+  }
+
+  textarea{
+      width: 100%;
+      font-size: 1.5rem;
+  }
+
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    font-size: 1.8rem;
+
+}
+
+.mensaje{
+    margin-top: 1.2rem;
+    text-align: center;
+}
+
+
+.display{
+    display: none;
+}
+
+
+.text-red{
+    color: red;
+}
+
+.text-green{
+    color: green;
+}
+
+
